@@ -18,7 +18,7 @@ steps:
 
   - name: gcr.io/cloud-builders/docker
     entrypoint: "sh"
-    args: ["-c", "docker build -t ucdlib/http-service-proxy-debugger:latest"]
+    args: ["-c", "docker build -t ucdlib/http-service-proxy-debugger:latest ."]
 
   - name: gcr.io/cloud-builders/docker
     entrypoint: "sh"
